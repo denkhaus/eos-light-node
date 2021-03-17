@@ -1,9 +1,9 @@
 package chain
 
 import (
+	chaintype "github.com/denkhaus/eos-light-node/eosio"
 	eos "github.com/eoscanada/eos-go"
 	"github.com/eoscanada/eos-go/ecc"
-	chaintype "github.com/eosforce/eos-light-node/eosio"
 )
 
 // SignedBlock Signed block in chain, for a light node, all block will be signed from others

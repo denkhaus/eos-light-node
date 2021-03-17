@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/eosforce/eos-light-node/core/chain"
-	"github.com/eosforce/eos-p2p/p2p"
+	"github.com/denkhaus/eos-light-node/core/chain"
+	"github.com/denkhaus/eos-p2p/p2p"
 )
 
 type chainP2PHandler struct {

@@ -8,7 +8,7 @@
 
 ## 1. Motivation
 
-EOSIO's block header structure supports lightweight nodes, but currently there is no reliable lightweight node implementation in the EOSIO community. In the EOSIO network, a full node has very high requirements for machine performance, network,  and operation  maintenance. At present, there are very few full nodes available in the EOSIO network. This means that the current EOSIO network structure is strongly centralized, which has a big impact to stability, and also makes it harder to develop and deploy DAPP on the chain.
+EOSIO's block header structure supports lightweight nodes, but currently there is no reliable lightweight node implementation in the EOSIO community. In the EOSIO network, a full node has very high requirements for machine performance, network, and operation maintenance. At present, there are very few full nodes available in the EOSIO network. This means that the current EOSIO network structure is strongly centralized, which has a big impact to stability, and also makes it harder to develop and deploy DAPP on the chain.
 
 Although EOSIO's plugin architecture can allow nodes to expand functions, nodes have higher requirements for machine performance. At the same time, developing plugins based on C ++ requires high development thresholds. Therefore, EOSIO has few expansion tools, which indirectly make development of DAPP more difficult.
 
@@ -39,20 +39,20 @@ EOSIO light nodes are developed by golang. First, you can install the golang env
 ### 3.1 Compile
 
 ```bash
-git clone https://github.com/eosforce/eos-light-node.git
+git clone https://github.com/denkhaus/eos-light-node.git
 cd eos-light-node
 go build
 ```
 
 ### 3.2 Start
 
-Here assumed that the available p2p url of eosio is `127.0.0.1:9001` and the chain-id is `1c6ae7719a2a3b4ecb19584a30ff510ba1b6ded86e1fd8b8fc22f1179c622a32`
+Here assumed that the available p2p url of eosio is `127.0.0.1:9001` and the chain-id is `aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906`
 
 ```bash
-./eos-light-node -v -genesis "./eosio/config/genesis.json" -chain-id "1c6ae7719a2a3b4ecb19584a30ff510ba1b6ded86e1fd8b8fc22f1179c622a32" -p2p "127.0.0.1:9001"
+./eos-light-node -v -genesis "./eosio/config/genesis.json" -chain-id "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906" -p2p "127.0.0.1:9876"
 ```
 
-> *Note*: Since there are few eosio p2p addresses available, you can start a local testnet based on the eosio boot script to test.
+> _Note_: Since there are few eosio p2p addresses available, you can start a local testnet based on the eosio boot script to test.
 
 ## 4. TODOs
 

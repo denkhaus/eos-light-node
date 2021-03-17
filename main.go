@@ -8,10 +8,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/eosforce/eos-light-node/core/chain"
-	"github.com/eosforce/eos-light-node/eosio"
-	"github.com/eosforce/eos-p2p/p2p"
-	"github.com/eosforce/eos-p2p/store"
+	"github.com/denkhaus/eos-light-node/core/chain"
+	"github.com/denkhaus/eos-light-node/eosio"
+	"github.com/denkhaus/eos-p2p/p2p"
+	"github.com/denkhaus/eos-p2p/store"
 	"go.uber.org/zap"
 )
 

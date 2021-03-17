@@ -1,4 +1,4 @@
-module github.com/eosforce/eos-light-node
+module github.com/denkhaus/eos-light-node
 
 go 1.12
 
@@ -6,7 +6,7 @@ require (
 	github.com/eapache/channels v1.1.0 // indirect
 	github.com/eapache/queue v1.1.0 // indirect
 	github.com/eoscanada/eos-go v0.8.16
-	github.com/eosforce/eos-p2p v0.1.1
+	github.com/denkhaus/eos-p2p v0.1.1
 	github.com/eosspark/eos-go v0.0.0-20190820132053-c626c17c72f9
 	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/pkg/errors v0.8.1
